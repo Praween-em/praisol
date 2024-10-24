@@ -21,6 +21,38 @@
             color: #fff;
         }
 
+        /* Navigation bar styles */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222;
+            padding: 10px 20px;
+        }
+
+        nav .left, nav .right {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .left a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-right: 20px;
+        }
+
+        nav .right a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #ff5722;
+        }
+
         header {
             background-color: #ff5722;
             padding: 20px;
@@ -108,10 +140,25 @@
             .card h3 {
                 font-size: 1.2rem;
             }
+
+            nav .left a, nav .right a {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="left">
+        <a href="#">Home</a>
+    </div>
+    <div class="right">
+        <a href="#">Services</a>
+        <a href="#">Profile</a>
+    </div>
+</nav>
 
 <header>
     <h1>Welcome to Praisol</h1>
