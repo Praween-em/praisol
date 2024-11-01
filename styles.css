@@ -262,7 +262,7 @@ footer {
 
     .card {
         z-index: -1;
-          padding: 1px; /* Adjust padding for smaller cards */
+          padding: 1px 5px; /* Adjust padding for smaller cards */
           font-size: 0.8rem;
     }
     .card-container {
